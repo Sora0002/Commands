@@ -1,0 +1,71 @@
+1-Navigation and File Management:
+
+cd directory: Change to the specified directory.
+ls options directory: List files and directories in the specified directory with specific options (e.g., -l for long format, -a for all files including hidden files).
+mkdir directory: Create a new directory with the specified name.
+rm options file: Remove/delete the specified file(s) with specific options (e.g., -r for recursive deletion).
+cp options source destination: Copy the source file or directory to the specified destination with specific options (e.g., -r for recursive copy).
+mv source destination: Move or rename the source file or directory to the specified destination.
+touch file: Create an empty file with the specified name.
+cat file: Display the contents of the specified file.
+less file: View the contents of the specified file interactively.
+head options file: Display the first few lines of the specified file with specific options (e.g., -n to specify the number of lines).
+tail options file: Display the last few lines of the specified file with specific options (e.g., -n to specify the number of lines).
+-----------------------------------
+
+2-Process Management:
+
+ps options: Display currently running processes with specific options (e.g., -ef for detailed information).
+kill options process_id: Terminate the specified process with specific options (e.g., -9 for a forceful termination).
+bg job_spec: Place the specified job in the background.
+fg job_spec: Bring the specified job to the foreground.
+jobs options: Display currently running jobs with specific options (e.g., -l for detailed information).
+-----------------------------------
+
+3-Input/Output and Redirection:
+
+echo arguments: Print the specified arguments to the console.
+printf format arguments: Print formatted text using the specified format and arguments.
+>: Redirect the standard output of a command to a file (overwrites the file if it exists).
+>>: Redirect the standard output of a command to a file (appends to the file if it exists).
+2>: Redirect the standard error output of a command to a file.
+&>: Redirect both the standard output and standard error output of a command to a file.
+|: Pipe the standard output of one command as the input to another command.
+grep options pattern file: Search for the specified pattern in the specified file with specific options (e.g., -i for case-insensitive search).
+wc options file: Count lines, words, and characters in the specified file with specific options (e.g., -l to count lines only).
+-----------------------------------
+
+4-System Information:
+
+uname options: Print system information with specific options (e.g., -a for all information).
+date options: Display the current date and time with specific options (e.g., +%Y-%m-%d for a specific date format).
+df options: Display disk usage information with specific options (e.g., -h for human-readable format).
+du options file/dir: Display disk usage of the specified file or directory with specific options (e.g., -h for human-readable format).
+-----------------------------------
+
+5-Networking:
+
+ping options host: Send ICMP echo requests to the specified host with specific options (e.g., -c for a specific number of requests).
+ifconfig options: Configure and display network interfaces with specific options (e.g., interface_name to specify a particular interface).
+ssh options user@host: Connect to the specified remote host via SSH with specific options (e.g., -p to specify a different port).
+scp options source destination: Securely copy files between hosts using SSH with specific options (e.g., -r for recursive copy).
+wget options url: Download a file from the web with specific options (e.g., -O to specify the output file name).
+-----------------------------------
+
+6-Compression and Archiving:
+
+tar options archive file/dir: Create or extract tar archives with specific options (e.g., -c for creating an archive, -x for extracting).
+gzip options file: Compress the specified file with specific options (e.g., -d to decompress).
+gunzip options file.gz: Decompress the specified compressed file with specific options.
+-----------------------------------
+
+7-User Management:
+
+who options: Display who is logged on with specific options (e.g., -q for a quick format).
+passwd options user: Change the password for the specified user with specific options (e.g., -e to force immediate password expiration).
+-----------------------------------
+
+8-Help and Documentation:
+
+man command: Display the manual page of the specified command.
+command --help or command -h: Display help information for the specified command.

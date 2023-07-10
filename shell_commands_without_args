@@ -1,0 +1,85 @@
+1-Navigation and File Management:
+
+cd directory: Change directory.
+ls: List files and directories.
+pwd: Print the current working directory.
+mkdir directory: Create a new directory.
+rm file: Remove/delete a file.
+rmdir directory: Remove/delete an empty directory.
+cp source destination: Copy a file or directory.
+mv source destination: Move/rename a file or directory.
+touch file: Create an empty file.
+cat file: Display the contents of a file.
+less file: View the contents of a file interactively.
+head file: Display the first few lines of a file.
+tail file: Display the last few lines of a file.
+-----------------------------------
+
+2-File Permissions:
+
+chmod permissions file: Change the permissions of a file or directory.
+chown user:group file: Change the owner and group of a file or directory.
+chgrp group file: Change the group of a file or directory.
+-----------------------------------
+
+3-Process Management:
+
+ps: Display currently running processes.
+top: Monitor system processes and resource usage.
+kill process_id: Terminate a process.
+killall process_name: Terminate all processes with a given name.
+bg: Run a process in the background.
+fg: Bring a background process to the foreground.
+jobs: List current jobs/processes.
+-----------------------------------
+
+4-Input/Output and Redirection:
+
+echo text: Print text to the console.
+printf format arguments: Print formatted text.
+>: Redirect output to a file (overwrite).
+>>: Redirect output to a file (append).
+2>: Redirect error output to a file.
+&>: Redirect both output and error output to a file.
+|: Pipe output of one command to another command.
+grep pattern file: Search for a pattern in a file.
+wc file: Count lines, words, and characters in a file.
+-----------------------------------
+
+5-System Information:
+
+uname: Print system information.
+whoami: Print the current username.
+date: Print the current date and time.
+cal: Display a calendar.
+df: Display disk usage information.
+du: Display disk usage of files and directories.
+-----------------------------------
+
+6-Networking:
+
+ping host: Send ICMP echo requests to a host.
+ifconfig: Configure and display network interfaces.
+ssh user@host: Connect to a remote host via SSH.
+scp source destination: Securely copy files between hosts.
+wget url: Download a file from the web.
+-----------------------------------
+
+7-Compression and Archiving:
+
+tar options archive file/dir: Create or extract tar archives.
+gzip file: Compress a file (creates a .gz file).
+gunzip file.gz: Decompress a compressed file.
+-----------------------------------
+
+8-User Management:
+
+who: Display who is logged on.
+whoami: Print the current username.
+passwd: Change the password for the current user.
+-----------------------------------
+
+9-Help and Documentation:
+
+man command: Display the manual page of a command.
+--help or -h: Display help information for a command.
