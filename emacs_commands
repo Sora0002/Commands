@@ -1,0 +1,76 @@
+1- Opening and Closing Files:
+
+emacs filename: Open a file in Emacs.
+C-x C-f: Open a different file.
+C-x C-s: Save the file.
+C-x C-w: Save the file with a different name.
+C-x C-c: Quit Emacs (prompt to save if changes were made).
+-----------------------------------
+
+2-Navigating within the File:
+
+C-p: Move the cursor up (previous line).
+C-n: Move the cursor down (next line).
+C-b: Move the cursor backward (left).
+C-f: Move the cursor forward (right).
+M-<: Move to the beginning of the file.
+M->: Move to the end of the file.
+C-a: Move to the beginning of the line.
+C-e: Move to the end of the line.
+C-v: Move forward one screen.
+M-v: Move backward one screen.
+M-g g or M-g M-g: Go to a specific line number.
+-----------------------------------
+
+3-Editing Text:
+
+C-d: Delete the character under the cursor.
+M-d: Delete the next word.
+M-backspace: Delete the previous word.
+C-k: Kill (cut) the rest of the line.
+C-y: Yank (paste) the last killed text.
+M-y: Rotate and replace yanked text with previous kills.
+C-SPC or C-@: Set the mark (start selecting).
+C-w: Kill (cut) the selected region.
+M-w: Copy the selected region.
+C-x C-x: Exchange the cursor position with the mark.
+M-u: Convert the word following the cursor to uppercase.
+M-l: Convert the word following the cursor to lowercase.
+-----------------------------------
+
+4-Searching and Replacing:
+
+C-s: Search forward for a pattern.
+C-r: Search backward for a pattern.
+C-M-%: Query replace (search and replace) in the entire file.
+M-x replace-string: Replace all occurrences of a string.
+-----------------------------------
+
+5-Undo and Redo:
+
+C-/ or C-_: Undo the last command or changes.
+C-x u: Undo/redo with visual interface.
+-----------------------------------
+
+6-Commenting and Uncommenting:
+
+M-;: Comment or uncomment the current line or region.
+-----------------------------------
+
+7-File Operations:
+
+C-x C-w: Save the file with a different name.
+C-x C-v: Open a different file and replace the current buffer.
+C-x C-q: Toggle read-only mode for the buffer.
+-----------------------------------
+
+8-Help and Documentation:
+
+C-h t: Open the Emacs tutorial.
+C-h r: Open the Emacs manual.
+-----------------------------------
+
+9-Saving and Exiting:
+
+C-x C-s: Save the changes made in the file.
+C-x C-c: Quit Emacs (prompt to save if changes were made).
